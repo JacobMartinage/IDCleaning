@@ -6,16 +6,12 @@ export const coreValues = [
     "Customer Focus"
   ];
   
-  export const missionStatement = "Our mission is to provide exceptional cleaning services...";
+  export const missionStatement = "Our mission is to provide exceptional cleaning services to our clients by providing a healthy, clean and safe environment for their employees, customers and guests. We are committed to delivering the highest level of service, professionalism and customer satisfaction. !!!!!LETS ADD AN IMAGE FOR THE BG!!!!!";
   
   export const whoWeServeCategories = [
     {
       title: 'Office and Commercial Property Cleaning',
-      items: ['Office buildings', 'Commercial complexes', 'Small business offices', 'Residential'],
-    },
-    {
-      title: 'Medical Offices',
-      items: [],
+      items: ['Office buildings', 'Commercial complexes', 'Small business offices', 'Residential', 'Medical offices'],
     },
     {
       title: 'Educational Institutions Cleaning',
@@ -113,4 +109,9 @@ export const coreValues = [
       'Windows'
     ]
   };
-  
+export const palette = {
+    gray: 'rgba(211, 211, 211, 1)',
+    grayClear: 'rgba(211, 211, 211, 0.5)',
+    darkGray: 'rgba(144, 144, 144, 1)',
+    darkGrayClear: 'rgba(144, 144, 144, 0.5)',
+}

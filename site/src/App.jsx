@@ -1,17 +1,16 @@
-import React from 'react';
 import Hero from './components/Hero';
 import AboutUs from './pages/AboutUs';
-import WhoWeServeSection from './pages/WhoWeServe';
+import WhoWeServePage from './pages/WhoWeServePage';
 import CleaningServices from './pages/CleaningServices';
 import ContactUs from './components/ContactUs';
 
 const App = () => {
   return (
-    <div className="font-sans">
-      <main className="container mx-auto p-6">
+    <div style={{width:'100vw', overflowX:'hidden', background:'rgba(244, 220, 195, 1)'}}>
+      <main className="container">
         <Hero />
         <AboutUs />
-        <WhoWeServeSection />
+        <WhoWeServePage />
         <CleaningServices />
         <ContactUs />
       </main>

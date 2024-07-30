@@ -1,19 +1,17 @@
-import React from 'react';
 import CoreValues from '../components/CoreValues';
 import MissionStatement from '../components/MissionStatement';
 
 const AboutUs = () => {
   return (
     <div className="font-sans">
-      <header className="bg-primary text-white p-6">
-        <h1 className="text-4xl font-bold text-center">ID Cleaning Services</h1>
+      <header className="bg-primary text-white p-6 mb-12" style={{width:'100vw'}}>
+        <h1 className="text-4xl font-bold text-center">About Us</h1>
       </header>
-      <main className="container mx-auto p-6">
+      <main className="container">
         <section id="about-us" className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-primary">About Us</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <CoreValues />
+          <div className="flex flex-row" style={{alignItems:'center'}}>
             <MissionStatement />
+            <CoreValues />
           </div>
         </section>
       </main>
